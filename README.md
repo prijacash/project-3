@@ -29,7 +29,7 @@ We want to empower the experts to grow their business and teach others how to na
 ![wireframe](/img/route.png)
 
 ## ERDs
-![ERD](/img/ERD.png)
+![ERD](/img/cleanERD.png)
 
 ## RESTful Routes
 
