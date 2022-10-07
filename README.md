@@ -20,7 +20,7 @@ It's 1999, and blogging is the coolest new trend on the world wide web! You've b
 
 ## ERDs
 
-<!-- ERDs here -->
+![ERD](/img/ERD.png)
 
 ## RESTful Routes
 
