@@ -29,27 +29,35 @@ We want to empower the experts to grow their business and teach others how to na
 ![wireframe](/img/route.png)
 
 ## ERDs
-![ERD](/img/cleanERD.png)
+![ERD](/img/clean_ERD.png)
 
 ## RESTful Routes
 
 ### User
 | HTTP METHOD | URL              | CRUD    | Response                              |
 | ----------- | ---------------- | ------- | ------------------------------------- |
-| GET | `/users/:id` | READ | return a specific user as json (status 200) |
+| GET | `/users/:userId` | READ | return a specific user as json (status 200) |
 | POST | `/users` | CREATE | create a user in the database and send back as json (status 201) |
-| PUT | `/users/:id` | UPDATE | update a user in the database and send back as json (status 200) |
-| DELETE | `/users/:id` | DESTROY | delete a user from the database (status 204) |
+| PUT | `/users/:userId` | UPDATE | update a user in the database and send back as json (status 200) |
+| DELETE | `/users/:userId` | DESTROY | delete a user from the database (status 204) |
+| PUT | `/users/:userId` | UPDATE | update a user in the database and send back as json (status 200) |
+
+### Cart
+| HTTP METHOD | URL              | CRUD    | Response                              |
+| ----------- | ---------------- | ------- | ------------------------------------- |
+| PUT | `/users/:userId/cart/:courseId` | UPDATE | update a user's cart in the database and send back as json (status 200) 
+| PUT | `/users/:userId/cart` | UPDATE | update a user's cart in the database and send back as json (status 200) 
 
 
 ### Courses
 | HTTP METHOD | URL              | CRUD    | Response                              |
 | ----------- | ---------------- | ------- | ------------------------------------- |
 | GET | `/courses` | READ | return all courses as json (status 200) |
-| GET | `/courses/:id` | READ | return a specific course as json (status 200) |
+| GET | `/courses/:courseId` | READ | return a specific course as json (status 200) |
 | POST | `/courses` | CREATE | create a course in the database and send back as json (status 201) |
-| PUT | `/courses/:id` | UPDATE | update a course in the database and send back as json (status 200) |
-| DELETE | `/courses/:id` | DESTROY | delete a course from the database (status 204) |
+| PUT | `/courses/:courseId` | UPDATE | update a course in the database and send back as json (status 200) 
+| DELETE | `/courses/:courseId` | DESTROY | delete a course from the database (status 204) |
+| POST | `/courses/:courseId/comments` | CREATE | create a comment in the database and send back as json (status 201) |
 
 ## Tech Stack Used
 - HTML / CSS / JavaScript
@@ -123,6 +131,12 @@ We want to empower the experts to grow their business and teach others how to na
 * [ ] Let users follow other users
 * [ ] Add video content
 * [ ] Add real users and their curated courses
+* [ ] Ability to reply to comments
+* [ ] User profile picture
+* [ ] User link
+* [ ] User description profile
+* [ ] Star Rating (omdb)
+
 
 
 
