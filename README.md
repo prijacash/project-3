@@ -1,6 +1,6 @@
 # SEIR-808 - Bloom
 
-Everyone is an expert in their own field.  We would like to expand on the gig economy to empower users to teach others the secrets of their craft.  We love how social media has showcased, that there are many different ways to earn a living.  There are experts in: AirBNB hosting, Cooking, Painting, and even Coding. These experts can create a workshop for inquiring minds who are curious in the field.
+Everyone is an expert in their own field.  We would like to expand on the gig economy to empower users to teach others the secrets of their trade.  We love how social media has showcased, that there are many different ways to earn a living.  There are experts in: AirBNB hosting, Cooking, Traveling, and even Coding. These experts can create a workshop for those who are curious in the field.
 
 We want to empower the experts to grow their business and teach others how to navigate that path.  For the ones that want to learn, we want them to Bloom.
 
@@ -20,11 +20,15 @@ We want to empower the experts to grow their business and teach others how to na
 * As a signed in user, I would like to see all my past courses.
 * As an unregistered user, I would like to see all of the courses.
 
+## Layout
+![Main Layout](/img/mainlayout.png)
+
+![Profile Layout](/img/profilelayout.png)
+
 ## Wireframes
 ![wireframe](/img/route.png)
 
 ## ERDs
-
 ![ERD](/img/ERD.png)
 
 ## RESTful Routes
@@ -59,6 +63,9 @@ We want to empower the experts to grow their business and teach others how to na
 - Axios
 - Bcrypt for Node.js
 
+## Install Instructions
+
+
 ## MVP goals
 
 * [ ] User has ability to signup
@@ -76,14 +83,42 @@ We want to empower the experts to grow their business and teach others how to na
 * [ ] User can add to shopping cart
 * [ ] User can use stripe https://github.com/azmenak/react-stripe-checkout
 * [ ] User can see past orders
+* [ ] As an unregistered user, I would like to see all of the courses.
 
-* [ ] CRUD
-* [ ] Build out internal API
+* [ ] Full Stack App - backend & front end from Unit 3
+* [ ] Interactive Front End - modern front end
+* [ ] Complete Product - CRUD - couple models
+* [ ] Thoughtful User Stories - to know where to build / scrap
+* [ ] Visually Impressive Design - wow future clients & employers
+* [ ] Deploy online - publicly accessible
 
-As an unregistered user, I would like to see all of the courses.
+* [ ] Working app, built by whole team
+* [ ] Link to your hosted app - URL in Github
+* [X] Team hosted repository
+
+* [ ] Completed README
+* [X] Technology Used
+* [ ] Couple Paragraphs General Approach you took
+* [ ] Installation Instructions
+* [ ] Link to User Stories
+* [ ] Link to Wireframes
+* [ ] RESTful routing chart
+* [ ] Unsolved Problems / Major Hurdles
+
+* [ ] Project Workflow
+* [ ] Technical Requirement
+* [ ] Creativity
+* [ ] Code Quality
+* [ ] Problem Solving
+
 
 ## Stretch goals
 
 * [ ] Let users leave ratings on courses
 * [ ] Let users follow other users
+* [ ] Add video content
+* [ ] Add real users and their curated courses
+
+
+
 
