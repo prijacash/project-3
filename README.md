@@ -45,3 +45,4 @@ It's 1999, and blogging is the coolest new trend on the world wide web! You've b
 
 * [ ] Let users leave ratings on courses
 * [ ] Let users follow other users
+* [ ] testing
