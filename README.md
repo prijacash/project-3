@@ -29,7 +29,7 @@ We want to empower the experts to grow their business and teach others how to na
 ![wireframe](/img/route.png)
 
 ## ERDs
-![ERD](/img/ERD.png)
+![ERD](/img/cleanERD.png)
 
 ## RESTful Routes
 
@@ -64,10 +64,12 @@ We want to empower the experts to grow their business and teach others how to na
 - Bcrypt for Node.js
 
 ## Install Instructions
+- TBD install instructions
 
 
 ## MVP goals
 
+**Functionality**
 * [ ] User has ability to signup
 * [ ] User can see all of the courses.
 
@@ -85,6 +87,7 @@ We want to empower the experts to grow their business and teach others how to na
 * [ ] User can see past orders
 * [ ] As an unregistered user, I would like to see all of the courses.
 
+**MVP Goals**
 * [ ] Full Stack App - backend & front end from Unit 3
 * [ ] Interactive Front End - modern front end
 * [ ] Complete Product - CRUD - couple models
@@ -96,6 +99,7 @@ We want to empower the experts to grow their business and teach others how to na
 * [ ] Link to your hosted app - URL in Github
 * [X] Team hosted repository
 
+**README**
 * [ ] Completed README
 * [X] Technology Used
 * [ ] Couple Paragraphs General Approach you took
@@ -105,6 +109,7 @@ We want to empower the experts to grow their business and teach others how to na
 * [ ] RESTful routing chart
 * [ ] Unsolved Problems / Major Hurdles
 
+**Evaluation**
 * [ ] Project Workflow
 * [ ] Technical Requirement
 * [ ] Creativity
