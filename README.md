@@ -16,8 +16,7 @@ It's 1999, and blogging is the coolest new trend on the world wide web! You've b
 * As a signed in user, I would to delete my blog posts and comments.
 
 ## Wireframes
-
-<!-- Wireframes here -->
+![wireframe](/img/route.png)
 
 ## ERDs
 
@@ -45,3 +44,4 @@ It's 1999, and blogging is the coolest new trend on the world wide web! You've b
 
 * [ ] Let users leave ratings on courses
 * [ ] Let users follow other users
+
